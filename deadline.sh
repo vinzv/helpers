@@ -1,4 +1,6 @@
 #!/bin/bash
+# (c) mostly by Andre Klapper <ak-47 gmx net>
+# taken from https://mail.gnome.org/archives/gnome-i18n/2018-August/msg00030.html
 # get teams list from e.g. thunar dir with:
 # ls -lsa *.po | awk '{ print $10 }' | sed -e 's/\..*$//' | tr '\n' ' ' && echo ''
 deadline="2017-08-27"
